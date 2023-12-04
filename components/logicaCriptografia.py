@@ -1,6 +1,6 @@
 import random
 
-from assets import tabelaValoresCaracteres
+from components import tabelaValoresCaracteres
 
 
 def criarNumeroPrimoAleatorio():
@@ -90,7 +90,7 @@ def interfaceCriptografar(interfaceTextoDigitado):
 
 def interfaceDescriptografar(interfaceChaves, interfaceCaracteresCriptografados):
     # Separar os valores "D" e "N" da chave privada
-    chaves = interfaceChaves.strip().replace(" ", '').split("-")
+    chaves = interfaceChaves.strip().replace(' ', '').split("-")
     d = int(chaves[0])
     n = int(chaves[1])
 
@@ -110,5 +110,6 @@ def interfaceDescriptografar(interfaceChaves, interfaceCaracteresCriptografados)
         for itemTabela in tabelaValoresCaracteres.tabela:
             if (caractere == itemTabela[1]):
                 mensagemFinalDescriptografada += itemTabela[0]
+                break
 
     return mensagemFinalDescriptografada

@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter import PhotoImage
 
-from assets import logicaCriptografia
+from components import logicaCriptografia
 class Application:
 
     ScreenStartStatus = 'closed'
@@ -188,7 +188,7 @@ class Application:
         #Guilherme Dias
         self.containerGuiD = Frame(self.middleContainer, bg="#02242e")
         self.containerGuiD.pack(side=LEFT)
-        self.imageGuiD = PhotoImage(file="images/imageGuilhermeDias.png")
+        self.imageGuiD = PhotoImage(file="assets/images/imageGuilhermeDias.png")
         Label(self.containerGuiD, image=self.imageGuiD, width=180, height=180).pack(side=TOP,padx=62)
         Label(self.containerGuiD, fg="#fff", bg="#02242e", text="Guilherme Dias", font=("System", "20")).pack(side=BOTTOM)
 
@@ -196,14 +196,14 @@ class Application:
         #Guilherme Leandro
         self.containerGuiL = Frame(self.middleContainer, bg="#02242e")
         self.containerGuiL.pack(side=LEFT)
-        self.imageGuiL = PhotoImage(file="images/imageGuilhermeLeandro.png")
+        self.imageGuiL = PhotoImage(file="assets/images/imageGuilhermeLeandro.png")
         Label(self.containerGuiL, image=self.imageGuiL, width=180, height=180).pack(side=TOP)
         Label(self.containerGuiL, fg="#fff", bg="#02242e", text="Guilherme Leandro", font=("System", "20")).pack(side=TOP)
 
         #Helen Silva
         self.containerHelen = Frame(self.middleContainer, bg="#02242e")
         self.containerHelen.pack(side=LEFT)
-        self.imageHelen = PhotoImage(file="images/imageHelen.png")
+        self.imageHelen = PhotoImage(file="assets/images/imageHelen.png")
         Label(self.containerHelen, image=self.imageHelen, width=180, height=180).pack(side=TOP,padx=62)
         Label(self.containerHelen, fg="#fff", bg="#02242e", text="Helen Silva", font=("System", "20")).pack(side=TOP)
 
@@ -214,7 +214,7 @@ class Application:
         # Luiz Filipe
         self.containerLuiz = Frame(self.bottomContainer, bg="#02242e")
         self.containerLuiz.pack(side=LEFT)
-        self.imageLuiz = PhotoImage(file="images/imageLuiz.png")
+        self.imageLuiz = PhotoImage(file="assets/images/imageLuiz.png")
         Label(self.containerLuiz, image=self.imageLuiz, width=180, height=180).pack(side=TOP, padx=62)
         Label(self.containerLuiz, fg="#fff", bg="#02242e", text="Luiz Filipe", font=("System", "20")).pack(side=BOTTOM)
 
@@ -222,7 +222,7 @@ class Application:
         # Vitor Oliveira
         self.containerVitor = Frame(self.bottomContainer, bg="#02242e")
         self.containerVitor.pack(side=LEFT)
-        self.imageVitor = PhotoImage(file="images/imageVitor.png")
+        self.imageVitor = PhotoImage(file="assets/images/imageVitor.png")
         Label(self.containerVitor, image=self.imageVitor, width=180, height=180).pack(side=TOP, padx=62)
         Label(self.containerVitor, fg="#fff", bg="#02242e", text="Vitor Oliveira", font=("System", "20")).pack(side=BOTTOM)
 
