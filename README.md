@@ -53,14 +53,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
         </sub>
       </a><br>
     </td>
-    <td align="center">
-      <a href="https://github.com/oliveiravitor32">
-        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/80297830?v=4" width="100px;" alt=""/><br>
-        <sub>
-          <strong>Vitor Oliveira</strong>
-        </sub>
-      </a><br>
-    </td> 
   </tr>
 </table>  
 
