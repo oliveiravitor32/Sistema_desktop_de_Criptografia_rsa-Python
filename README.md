@@ -8,6 +8,11 @@
 
 OceanCript é um sistema de criptografia desenvolvido para proporcionar segurança e eficiência na comunicação de um navio transportador de carga tóxica. Este sistema foi concebido com a finalidade de assegurar a transmissão de mensagens de maneira segura e eficaz, contribuindo assim para a preservação da integridade da carga e a mitigação de potenciais riscos associados. 
 
+## ▶ Como usar
+
+Para utilizar o programa execute o arquivo interface.py
+
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
