@@ -1,7 +1,7 @@
 <h1 align="center"> OceanCript </h1>
 
 <p align="center">
-  <img alt="projeto OceanCript" src="assets/images/preview.jpg" width="100%">
+  <img alt="projeto OceanCript" src="assets/preview.jpg" width="100%">
 </p>
 
 ## 💻 Projeto
