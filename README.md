@@ -6,7 +6,7 @@
 
 ## 💻 Projeto
 
-OceanCript é um sistema de criptografia desenvolvido para proporcionar segurança e eficiência na comunicação de um navio transportador de carga tóxica. Este sistema foi concebido com a finalidade de assegurar a transmissão de mensagens de maneira segura e eficaz, contribuindo assim para a preservação da integridade da carga e a mitigação de potenciais riscos associados. 
+OceanCript é um sistema de criptografia RSA desenvolvido para proporcionar segurança e eficiência na comunicação de um navio transportador de carga tóxica. Este sistema foi concebido com a finalidade de assegurar a transmissão de mensagens de maneira segura e eficaz, contribuindo assim para a preservação da integridade da carga e a mitigação de potenciais riscos associados. 
 
 ## ▶ Como usar
  - Necessário versão do Python 3.9 em diante.
